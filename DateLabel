@@ -1,0 +1,6 @@
+DateButtonLabel = 
+    VAR _start = MIN('Date'[Date])
+    VAR _end = MAX('Date'[Date])
+return
+        FORMAT(_start,"dd/mm/yy")&" - "&FORMAT(_end,"dd/mm/yy")
+    
